@@ -44,3 +44,4 @@ Add your preferred testing strategy (Playwright, Vitest, etc.) as the project ev
 ### Supabase types
 
 `src/lib/supabase/types.ts` contains placeholder typings. Replace them with generated types by running `supabase gen types typescript ...` once your database schema is available.
+# naei-multigroup-admin
