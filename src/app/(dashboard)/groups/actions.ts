@@ -52,7 +52,7 @@ const logAudit = async (eventType: string, actor: string | null, details: Json) 
       actor,
       details,
     };
-    const { error } = await serviceClient.from("audit_events").insert(entry);
+    const { error } = await serviceClient.from("audit_events").insert([entry]);
 
     if (error) {
       console.error("Failed to append audit event", error);
